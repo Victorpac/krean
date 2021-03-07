@@ -9,6 +9,10 @@
 	font-size: 47px;
 }
 
+header .navbar-nav a:hover {
+	color:#eee;
+}
+
 .top-banner-img {
 	height: 100vh;
 	width: 100vw;
