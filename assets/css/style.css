@@ -2,6 +2,11 @@
 	font-family: 'Ubuntu', sans-serif;
 }
 
+/* header */
+header .navbar-collapse ul a:hover {
+	opacity: .7;
+}
+
 .logo > h1 {
 	text-transform: uppercase;
 	color: #fff;
@@ -216,6 +221,10 @@
 	padding: 130px 0px 70px;
 }
 
+.contact form > #contactInfo{
+	margin: 50px 0px 100px;
+}
+
 .contact input {
 	background-color: #000;
 	border: none;
@@ -245,6 +254,17 @@
 footer {
 	background: linear-gradient(to left, #452851, #382c7b);
 	padding: 70px 0px;
+	font-size: 12px;
+}
+
+footer .address p {
+	padding: 3px 0px;
+}
+
+footer #social {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer .mail img {
@@ -356,6 +376,16 @@ footer {
 @media (max-width: 576px) {
 	.works .row {
 		margin: 0;
+	}
+
+	/* Contact (form) */
+	.contact form > div {
+		margin: 0px 15px !important;
+	}
+
+	#name, #mail {
+		width: 100%;
+		margin-bottom: 30px;
 	}
 }
 
